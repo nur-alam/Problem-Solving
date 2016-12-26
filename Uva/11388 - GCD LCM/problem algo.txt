@@ -1,0 +1,23 @@
+Easy Problem
+
+we know that 
+a x b= gcd(a,b) x lcm(a,b)
+or gcd(a,b) x lcm(a,b)= a x b ....................(1)
+
+Input is : gcd(a,b) and lcm(a,b)
+output : a=?, b=?
+from equation (i)
+there is symmetry
+
+try:
+from forward: a=12, b=18
+gcd(12,18)=6, lcm(12,18)=36
+12 x 18 = 6 x 36
+
+from reverse: a=6, b=36
+gcd(6,36)= 6, lcm(6,36)= 36
+6 x 36 = 6 x 36
+
+ha ha ha ............
+just : input = output if b is divisible by a
+otherwise print -1

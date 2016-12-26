@@ -1,0 +1,10 @@
+1.http://www.programmingspark.com/2012/03/c-program-to-compare-two-strings.html
+2.http://www.programmingsimplified.com/c-program-compare-two-strings
+3.http://www.cquestions.com/2011/09/how-to-compare-two-strings-in-c-without.html
+
+
+11022 - String Factoring
+455 - Periodic Strings
+11081 - Strings
+10298 - Power Strings
+11258 - String Partition

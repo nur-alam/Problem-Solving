@@ -1,0 +1,13 @@
+6
+3
+BBB
+3
+WWW
+3
+BWB
+4
+BWWT
+3
+BTW
+2
+AA
