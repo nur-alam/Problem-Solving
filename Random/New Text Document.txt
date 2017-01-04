@@ -1,0 +1,5 @@
+http://www.geeksforgeeks.org/maximum-of-all-subarrays-of-size-k/
+
+http://www.geeksforgeeks.org/sum-minimum-maximum-elements-subarrays-size-k/
+
+http://www.geeksforgeeks.org/searching-for-patterns-set-1-naive-pattern-searching/
