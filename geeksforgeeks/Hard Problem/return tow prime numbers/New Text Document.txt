@@ -1,0 +1,3 @@
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=425
+
+http://www.geeksforgeeks.org/find-two-prime-numbers-with-given-sum/

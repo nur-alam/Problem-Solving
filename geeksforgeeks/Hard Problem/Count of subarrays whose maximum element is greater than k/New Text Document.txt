@@ -1,0 +1,2 @@
+
+http://www.geeksforgeeks.org/count-subarrays-whose-maximum-element-greater-k/

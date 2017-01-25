@@ -1,0 +1,2 @@
+
+http://www.geeksforgeeks.org/check-length-string-equal-number-appended-last/
