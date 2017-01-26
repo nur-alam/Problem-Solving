@@ -1,0 +1,5 @@
+http://www.practice.geeksforgeeks.org/problem-page.php?pid=700411
+
+
+//tuto
+//http://www.geeksforgeeks.org/find-perimeter-shapes-formed-1s-binary-matrix/
