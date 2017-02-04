@@ -1,0 +1,3 @@
+
+
+	http://www.geeksforgeeks.org/k-th-prime-factor-given-number/
