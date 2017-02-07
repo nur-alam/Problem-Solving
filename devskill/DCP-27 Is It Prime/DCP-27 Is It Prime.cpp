@@ -37,6 +37,7 @@ int main(){
     while(t--)
     {
         cin >> n;
+
         if( arr[n] == 1 )
             cout << "Yes" << endl;
         else
