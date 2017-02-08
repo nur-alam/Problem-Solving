@@ -1,0 +1,1 @@
+httpwww.geeksforgeeks.orgprint-all-prime-factors-of-a-given-number
