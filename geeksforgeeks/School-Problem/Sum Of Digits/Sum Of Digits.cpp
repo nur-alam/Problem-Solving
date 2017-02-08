@@ -6,6 +6,7 @@ int main()
 {
     int i,t,n,sum;
     string s;
+
     cin>>t;
     while(t--)
     {
@@ -14,8 +15,8 @@ int main()
         for(i=0; i<s.size(); i++)
         {
             sum += s[i]-'0';
-            //cout << sum << " ";
         }
         cout << sum << endl;
     }
+    return 0;
 }
