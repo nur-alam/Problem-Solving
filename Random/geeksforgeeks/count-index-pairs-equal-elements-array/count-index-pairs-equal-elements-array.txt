@@ -1,0 +1,1 @@
+httpwww.geeksforgeeks.orgcount-index-pairs-equal-elements-array
