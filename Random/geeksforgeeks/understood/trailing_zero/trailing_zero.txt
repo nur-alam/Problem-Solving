@@ -1,4 +1,6 @@
 
+http://www.purplemath.com/modules/factzero.htm
+
 http://www.geeksforgeeks.org/count-trailing-zeroes-factorial-number/
 
 https://www.manhattanprep.com/gmat/forums/how-many-zeros-does-100-end-with-t5008.html#
