@@ -8,10 +8,10 @@ int main(){
         for(i=1;i<=b/2;i++){
              multiple=a*i;
             if(multiple<=b){
-                    if(i==1){
-                        printf("Case %d: %d ",j++,multiple);}
-                    else
-                        printf("%d ",multiple);
+                if(i==1){
+                    printf("Case %d: %d ",j++,multiple);}
+                else
+                    printf("%d ",multiple);
             }
             else
                 break;
