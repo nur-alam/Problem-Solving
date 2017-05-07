@@ -13,7 +13,7 @@ int reverseDigits(int num)
 }
 
 int main(){
-    int num = 5896;
+    int num = -5896;
     printf("%d",reverseDigits(num));
     return 0;
 }
