@@ -10,7 +10,7 @@ int main()
     {
         int n;
         cin>>n;
-        int arr[n] = {0};
+        int arr[5] = {0};
         int k = n;
         int p;
 
@@ -18,6 +18,11 @@ int main()
         {
             cin>>p;
             arr[p-1]++;
+            for(int i=0; i<k; i++)
+            {
+                cout << arr[i] << " ";
+            }
+            cout << endl;
         }
 
         for(int i=0; i<k; i++)
