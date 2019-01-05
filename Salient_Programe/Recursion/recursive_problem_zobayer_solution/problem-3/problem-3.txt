@@ -1,0 +1,41 @@
+Problem 3:
+
+Write a recursive program to remove all odd integers from an array. You must not use any extra array or print anything in the function. Just read input, call the recursive function, then print the array in main().
+
+Input:
+6
+1 54 88 6 55 7
+Output:
+54 88 6
+
+Solution for problem 3:
+If the problem sounds peculiar, in straight forward, it asks you to iterate through an array of integers and copy them in the same array if the element is even, i.e. remove the odds. To follow the restrictions imposed in the statement, we may have two indexes, i and j, where i means which element currently we are dealing with and j is the position in the same array where to put the current element. From a very little observation, we can see that j will never exceed i, so we can do this without any problem. And as we can't print from the function and we need to write the output back in main() after the function finishes its jobs, we will need to change the value of n - the total number of elements (as some elements will be thrown away). We can't do it instantly as then i wont reach all elements then as n will keep decreasing.
+
+[.c]
+#include <stdio.h>
+
+void function(int i, int j, int *n, int *a)
+{
+    if(i==*n)
+    {
+        *n = j; // resize n
+        return;
+    }
+    if(a[i]%2==0) a[j++] = a[i];
+    function(i+1, j, n, a);
+}
+
+int main()
+{
+    int i, n, a[100];
+    scanf("%d", &n);
+    for(i=0; i<n; i++)
+        scanf("%d", &a[i]);
+    function(0, 0, &n, a);
+    for(i=0; i<n; i++)
+        printf("%d ", a[i]);
+    printf("\n");
+    return 0;
+}
+[.c]
+Similar problem, you may be asked to do this for the even numbers, same solution, just change the odd-even checking accordingly.
