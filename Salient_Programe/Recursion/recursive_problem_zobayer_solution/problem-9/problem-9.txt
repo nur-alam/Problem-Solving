@@ -1,0 +1,32 @@
+Problem 9:
+
+Write a recursive function that finds the gcd of two non-negative integers.
+
+Input:
+25 8895
+Output:
+5
+
+Solution for problem 9:
+What can I say more about this, this is the traditional Euclidean algorithm for finding gcd of two integers. This is actually the same way we did in our elementary school. To get gcd(a, b), keep dividing a by b. The value a%b will be the b for the next step and current b will be the a for the next step.
+[.c]
+#include <stdio.h>
+
+int gcd(int a, int b)
+{
+	if(b==0) return a;
+	return gcd(b, a%b);
+}
+
+int main()
+{
+	int a, b, g;
+	scanf("%d %d", &a, &b);
+	g = gcd(a, b);
+	printf("%d\n", g);
+	return 0;
+}
+[.c]
+
+
+This is a very good recursion...
