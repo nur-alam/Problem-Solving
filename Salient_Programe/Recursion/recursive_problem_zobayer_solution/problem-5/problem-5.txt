@@ -1,0 +1,36 @@
+Problem 5:
+
+Write a recursive solution to evaluate the previous polynomial for any given x and n.
+Like, when x=2 and n=5, we have 1 + x + x2 + ................. + xn-1 = 31
+
+Input:
+2 5
+Output:
+31
+
+Solution for problem 5:
+Well, this is same as the previous one, instead of printing it, you need to evaluate it for given n and x. So the recursive formula for this may be: f(x, n) = x^n + f(x, n-1). In programming, we can easily do this recursively in forward order.
+
+#include <stdio.h>
+#include <math.h>
+
+int sum_poly(int i, int n, int x)
+{
+    if(n==0)
+        return 1;
+    if(i<n)
+        return (int)pow(x,i) + sum_poly(i+1, n, x);
+    return 0;
+}
+
+int main()
+{
+    int n, v, x;
+    scanf("%d %d", &x, &n);
+    v = sum_poly(0, n, x);
+    printf("%d\n", v);
+    return 0;
+}
+
+
+Try with some other series you might imagine.
