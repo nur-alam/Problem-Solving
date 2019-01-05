@@ -1,0 +1,29 @@
+Problem 7:
+
+Write a recursive program to compute nth fibonacci number. 1st and 2nd fibonacci numbers are 1, 1.
+
+Input:
+6
+Output:
+8
+Solution for problem 7:
+This is another common problem studied in elementary recursion and tree structures. We know, 1st and 2nd Fibonacci numbers are both 1. And the rest of it is fib(n) = fib(n-1) + fib(n-2).
+[.c]
+#include <stdio.h>
+
+int fib(int n)
+{
+    if(n<3) return 1;
+    return fib(n-2) + fib(n-1);
+}
+
+int main()
+{
+    int n, v;
+    scanf("%d", &n);
+    v = fib(n);
+    printf("%d\n", v);
+    return 0;
+}
+[.c]
+This problem has an excessive overlapping call which may turn it out to be slow, but hey, we are not to practice efficiency here, so forget about that, just look for how recursions work
