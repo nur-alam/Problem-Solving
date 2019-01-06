@@ -1,0 +1,32 @@
+Problem 10:
+
+Write a recursive solution to compute lcm of two integers. You must not use the formula lcm(a,b) = (a x b) / gcd(a,b); find lcm from scratch...
+
+Input:
+23 488
+Output:
+11224
+
+Solution for problem 10:
+Finding lcm in "bangla method" is actually easy. Keep multiplying one number a, with i starting from 1 and whenever, a*i is divisible by the other number b, a*i is the lcm.
+[.c]
+#include <stdio.h>
+
+int lcm(int a, int b, int m)
+{
+    if(a*m % b == 0) return a*m;
+    return lcm(a, b, m+1);
+}
+
+int main()
+{
+    int a, b, l;
+    scanf("%d %d", &a, &b);
+    l = lcm(a, b, 1);
+    printf("%d\n", l);
+    return 0;
+}
+[.c]
+
+
+You can also do it by multiplying m with b and checking divisibility by a. This process is not good though, but if we want to follow recursion, we need to do this.
