@@ -5,8 +5,7 @@ Suppose you are given an array of integers in an arbitrary order. Write a recurs
 Input:
 5
 7 4 9 6 2
-Output:
-9
+Output: 9
 
 Solution for problem 11:
 First, lets formulate the problem recursively. Say an array of n integers is given. Then we can say, Max(i) will return the maximum element from positions i to the end of the array, i.e. in range [ai,....,an]. So, Max(i) will be the maximum of ith position and Max(i+1). We'll write: Max(i) = maximum( A[i], Max(i+1) ).
